@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Etiqueta FORM </title>
+
+    </head>
+    <body>
+        <section><h2 style="color: purple">Uso de la etiqueta < text ></h2></section>
+        <p>esta etiqueta se utiliza para recopilar texto largo, como comentario</p>
+
+        <form action="/procesar-formulario" method="post">
+                <label for="comentario">Comentario:</label>
+                <textarea name="comentario" id="comentario" cols="20" rows="12"></textarea><br><br>
+                <label for="selection">Selecciona una Opcion:</label>
+                <select name="selection" id="selection">
+                    <option value="op 1">Opcion 1:</option>
+                    <option value="op 2">Opcion 2:</option>
+                    <option value="op 3">Opcion 3:</option>
+                    <option value="op 4">Opcion 4:</option>
+                </select>
+        <p><h2 style="color: rgb(3, 3, 102);">Etiqueta < radio ></h2></p>
+                <label >Opcion 1: <input type="radio" name="opcion" value="opcion1"></label><br>
+                <label >Opcion 2: <input  type="radio" name="opcion" value="opcion2"></label><br>
+                <label >Opcion 3: <input  type="radio" name="opcion" value="opcion3"></label><br>
+                <label >Opcion 4: <input  type="radio" name="opcion" value="opcion4"></label><br>
+        <p><h2 style="color: rgb(3, 3, 102);">Etiqueta < checkbox ></h2></p>
+                <label >Opcion 1: <input type="checkbox" name="opcion" value="opcion1"></label><br>
+                <label >Opcion 2: <input  type="checkbox" name="opcion" value="opcion2"></label><br>
+                <label >Opcion 3: <input  type="checkbox" name="opcion" value="opcion3"></label><br>
+                <label >Opcion 4: <input  type="checkbox" name="opcion" value="opcion4"></label><br>
+
+        </form>
+
+    </body>
+</html>
